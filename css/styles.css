@@ -700,12 +700,10 @@ a {
 }
 
 .form-group {
-  gap: 8px;
   width: 360px;
   height: 58px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
   margin-bottom: 8px;
 }
 
