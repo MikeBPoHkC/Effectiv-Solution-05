@@ -667,7 +667,7 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop:not(is-open) .modal {
+.backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%);
   scale: (1.5);
 }
@@ -701,7 +701,7 @@ a {
   margin-bottom: 16px;
 }
 
-.checkebox-group {
+.checkbox-group {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -772,7 +772,7 @@ a {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.checkebox-label {
+.checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
