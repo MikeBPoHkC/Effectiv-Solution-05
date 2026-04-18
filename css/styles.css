@@ -668,8 +668,7 @@ a {
 }
 
 .backdrop:not(.is-open) .modal {
-  scale: (1.5);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1.5);
 }
 
 .modal-title {
@@ -681,6 +680,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px
 }
 
 .modal-form {
